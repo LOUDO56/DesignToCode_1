@@ -615,6 +615,14 @@ video {
   gap: 42px;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-0 {
+  gap: 0px;
+}
+
 .self-center {
   align-self: center;
 }
@@ -643,6 +651,10 @@ video {
   background-color: rgba(219, 229, 251, 1);
 }
 
+.bg-blue\/10 {
+  background-color: rgba(71, 122, 235, 0.1);
+}
+
 .bg-dark {
   background-color: rgba(2, 7, 18, 0.8);
 }
@@ -651,24 +663,12 @@ video {
   background-color: rgba(250, 252, 254, 1);
 }
 
-.bg-blue\/20 {
-  background-color: rgba(71, 122, 235, 0.2);
-}
-
-.bg-blue\/10 {
-  background-color: rgba(71, 122, 235, 0.1);
-}
-
-.p-2 {
-  padding: 0.5rem;
+.p-3 {
+  padding: 0.75rem;
 }
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-3 {
-  padding: 0.75rem;
 }
 
 .px-4 {
@@ -828,6 +828,14 @@ body {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:gap-2 {
+    gap: 0.5rem;
+  }
+
+  .md\:gap-0 {
+    gap: 0px;
   }
 
   .md\:p-12 {
